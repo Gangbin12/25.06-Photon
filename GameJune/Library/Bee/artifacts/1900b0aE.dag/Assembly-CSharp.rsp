@@ -344,6 +344,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.Culling.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PlayFab.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PlayFabEditorExtensions.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PlayFabSDKEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PunDemos.DemoHubEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PunDemos.DemoSlotcarEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
@@ -383,6 +386,7 @@
 "Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs"
 "Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/Scripts/PlayfabManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

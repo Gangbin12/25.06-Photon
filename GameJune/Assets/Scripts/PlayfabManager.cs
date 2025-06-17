@@ -30,7 +30,6 @@ public class PlayfabManager : MonoBehaviourPunCallbacks
     public override void OnJoinedLobby()
     {
         PhotonNetwork.LoadLevel("Lobby");
-
     }
 
     public void Access()

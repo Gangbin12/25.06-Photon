@@ -391,6 +391,7 @@
 "Assets/Scripts/Information.cs"
 "Assets/Scripts/LobbyManager.cs"
 "Assets/Scripts/PlayfabManager.cs"
+"Assets/Scripts/PositionManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

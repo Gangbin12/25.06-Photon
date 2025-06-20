@@ -6,7 +6,7 @@ public class CharacterManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] Vector3 direction;
 
-    void Start()
+    void Awake()
     {
         PhotonNetwork.Instantiate("Character", direction, Quaternion.identity);    
     }

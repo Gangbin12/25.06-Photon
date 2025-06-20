@@ -17,7 +17,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     {
         RoomOptions roomOptions = new RoomOptions();
 
-        roomOptions.MaxPlayers = 10;
+        roomOptions.MaxPlayers = 4;
 
         roomOptions.IsOpen = true;
 

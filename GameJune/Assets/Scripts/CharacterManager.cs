@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class CharacterManager : MonoBehaviourPunCallbacks
 {
-    [SerializeField] Vector3 direction;
+    [SerializeField] List<Transform> transformList;
 
     void Awake()
     {
-        PhotonNetwork.Instantiate("Character", direction, Quaternion.identity);    
-    }
+        int index = PhotonNetwork.CurrentRoom.PlayerCount - 1;
+
+        PhotonNetwork.Instantiate("Character", transformList[index].position, Quaternion.identity); 
+    }    
 }

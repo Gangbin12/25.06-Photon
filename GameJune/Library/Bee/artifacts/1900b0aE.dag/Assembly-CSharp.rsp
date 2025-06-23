@@ -390,8 +390,8 @@
 "Assets/Scripts/CharacterManager.cs"
 "Assets/Scripts/Information.cs"
 "Assets/Scripts/LobbyManager.cs"
+"Assets/Scripts/Mouse.cs"
 "Assets/Scripts/PlayfabManager.cs"
-"Assets/Scripts/PositionManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

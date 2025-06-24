@@ -388,6 +388,8 @@
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/Character.cs"
 "Assets/Scripts/CharacterManager.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Head.cs"
 "Assets/Scripts/Information.cs"
 "Assets/Scripts/LobbyManager.cs"
 "Assets/Scripts/Mouse.cs"

@@ -1,6 +1,7 @@
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] int minute;
     [SerializeField] int second;
     [SerializeField] int milliSecond;
+
+    [SerializeField] Text timeText;
 
     void Start()
     {
@@ -24,6 +27,6 @@ public class GameManager : MonoBehaviour
         second = (int)time % 60;
         milliSecond = (int)(time * 100) % 100;
 
-        Debug.Log($"{minute:D2} : {second:D2} : {milliSecond:D2}");
+        timeText.text = $"{minute:D2} : {second:D2} : {milliSecond:D2}";
     }
 }

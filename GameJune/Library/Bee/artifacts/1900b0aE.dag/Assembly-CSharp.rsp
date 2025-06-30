@@ -396,6 +396,7 @@
 "Assets/Scripts/MasterManager.cs"
 "Assets/Scripts/Mouse.cs"
 "Assets/Scripts/PlayfabManager.cs"
+"Assets/Scripts/ProfileManager.cs"
 -langversion:9.0
 
 /deterministic
